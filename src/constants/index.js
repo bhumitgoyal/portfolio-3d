@@ -1,8 +1,10 @@
 import {
   mobile,
+  
   backend,
   creator,
   web,
+  kotlin,
   javascript,
   typescript,
   html,
@@ -14,6 +16,12 @@ import {
   mongodb,
   git,
   figma,
+  studybuddy,
+  soothe,
+  resume,
+  care,
+  eventnest,
+  sirvicy,
   docker,
   meta,
   starbucks,
@@ -23,6 +31,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  SIH,
+  yantra,
+  prewery,
+  devjams
 } from "../assets";
 
 export const navLinks = [
@@ -54,36 +66,26 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "LangChain Developer",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Kotlin",
+    icon: kotlin,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -92,10 +94,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+
   {
     name: "Three JS",
     icon: threejs,
@@ -105,7 +104,7 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "Python",
     icon: figma,
   },
   {
@@ -116,37 +115,37 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "DevJams",
+    company_name: "Google",
+    icon: devjams,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a project under the AI/ML track with real-world applications.",
+      "Worked with React, Kotlin, and Python to create a scalable solution.",
+      "Developed a cloud-integrated system for real-time data processing.",
+      "Focused on user-centric design and efficient backend architecture.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Yantra’25 Central Hack",
+    company_name: "VIT Vellore",
+    icon: yantra,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feburary 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed an AI-powered mental health support platform for women in high-stress careers.",
+      "Integrated AI-driven journal analysis, burnout analytics, and mentorship tools.",
+      "Used LangChain and Firebase to enhance chatbot capabilities.",
+      "Promoted Sustainable Development Goals (SDGs), focusing on gender equality and well-being.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Smart India Hackathon",
+    company_name: "VIT Vellore",
+    icon: SIH,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -156,15 +155,15 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Prewery Pvt. Ltd.",
+    icon: prewery,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - May-2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built and integrated RESTful APIs for seamless backend communication using SpringBoot.",
+      "Designed and implemented user-friendly features.",
+      "Deployed entire projects and websites, ensuring smooth operation using React.",
+      "Rolled out updates and enhancements.",
     ],
   },
 ];
@@ -198,68 +197,159 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SootheAI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A platform that provides personalized mental health support using AI-driven journal analysis, mood tracking, mentorship matching, and AI-powered conversation simulation.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "LangChain",
         color: "pink-text-gradient",
       },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "pink-text-gradient",
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: soothe,
+    source_code_link: "https://soothe-ai.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "CareBeds",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A system for real-time tracking of bed availability, OPD queues, and patient prioritization, integrated with a city-wide healthcare module. Uses AI for predictive analytics and resource management.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Kotlin",
         color: "pink-text-gradient",
       },
+      {
+        name: "SpringBoot",
+        color: "pink-text-gradient",
+      }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: care,
+    source_code_link: "https://github.com/bhumitgoyal/carebedsapp",
   },
   {
-    name: "Trip Guide",
+    name: "ResumeMate",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A tool that analyzes resumes using NLP to extract key skills, match candidates to job descriptions, and provide improvement suggestions.",
     tags: [
       {
-        name: "nextjs",
+        name: "LangChain",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Pyhton",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "OpenAI",
         color: "pink-text-gradient",
       },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: resume,
+    source_code_link: "https://resumeanalyzer-jade.vercel.app/",
   },
+  {
+    name: "Sirvicy",
+    description:
+      "Sirvicy is a smart service management app for CAT’s workers and mechanics, optimizing vehicle servicing with real-time tracking, automated job assignments, and maintenance insights for smoother operations",
+    tags: [
+      {
+        name: "AWS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JetPack",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kotlin",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SpringBoot",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: sirvicy,
+    source_code_link: "https://github.com/bhumitgoyal/Sirvicy",
+  },
+  {
+    name: "EventNest",
+    description:
+      "EventNest is an AI-powered event management platform designed to simplify event organization, ticketing, and audience engagement. It provides a seamless experience for both event organizers and attendees by integrating smart recommendations, real-time updates, and automated workflows.",
+    tags: [
+      {
+        name: "Firestore",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kotlin",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SpringBoot",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: eventnest,
+    source_code_link: "https://github.com/bhumitgoyal/eventnest",
+  },
+  {
+    name: "StudyBuddy",
+    description:
+      "StudyBuddy is an AI-driven study assistant designed to enhance learning efficiency, boost productivity, and personalize study sessions. It leverages AI to generate concise notes, quizzes, and study plans while providing smart task management and real-time doubt-solving support.",
+    tags: [
+      {
+        name: "PostgreSQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kotlin",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SpringBoot",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: studybuddy,
+    source_code_link: "https://github.com/bhumitgoyal/Study-Buddy",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

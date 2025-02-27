@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import blank from "./blank.svg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -22,6 +22,10 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import yantra from "./company/yantra.png"
+import prewery from "./company/prewery.png"
+import SIH from "./company/SIH.png"
+import devjams from "./company/devjams.png"
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -29,11 +33,20 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import studybuddy from "./studybuddy.png"
+import soothe from "./soothe.png"
+import eventnest from "./eventnest.png"
+import sirvicy from "./sirvicy.png"
+import resume from "./resume.png"
+import kotlin from "./tech/kotlin.png"  
+import care from "./care.png"
 
 export {
   logo,
   backend,
+  kotlin,
   creator,
+  blank,
   mobile,
   web,
   github,
@@ -46,6 +59,12 @@ export {
   html,
   javascript,
   mongodb,
+  studybuddy,
+  soothe,
+  resume,
+  care,
+  eventnest,
+  sirvicy,
   nodejs,
   reactjs,
   redux,
@@ -54,6 +73,10 @@ export {
   threejs,
   meta,
   shopify,
+  devjams,
+  prewery,
+  SIH,
+  yantra,
   starbucks,
   tesla,
   carrent,
