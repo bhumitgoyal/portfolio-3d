@@ -34,7 +34,8 @@ import {
   SIH,
   yantra,
   prewery,
-  devjams
+  devjams,
+  resumeai
 } from "../assets";
 
 export const navLinks = [
@@ -225,6 +226,37 @@ const projects = [
     image: soothe,
     source_code_link: "https://soothe-ai.vercel.app/",
   },
+   {
+    name: "AI Resume Builder",
+    description:
+      " AI-powered resume builder using React, Gemini API, Strapi, and Clerk. It generates professional resumes quickly and efficiently.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Strapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "LangChain",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: resumeai,
+    source_code_link: "https://github.com/bhumitgoyal/ai-resume-builder-strapi-admin",
+  },
+  
+  
   {
     name: "CareBeds",
     description:
