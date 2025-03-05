@@ -40,8 +40,10 @@ import sirvicy from "./sirvicy.png"
 import resume from "./resume.png"
 import kotlin from "./tech/kotlin.png"  
 import care from "./care.png"
+import resumeai from "./resumeai.png"
 
 export {
+  resumeai,
   logo,
   backend,
   kotlin,
