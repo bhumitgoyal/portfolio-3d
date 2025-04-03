@@ -40,11 +40,17 @@ import sirvicy from "./sirvicy.png"
 import resume from "./resume.png"
 import kotlin from "./tech/kotlin.png"  
 import care from "./care.png"
+import vakeel from "./vakeel.png"
+import womentechies from "./women.png"
+import tredence from "./tredence.jpeg"
 import resumeai from "./resumeai.png"
 
 export {
   resumeai,
   logo,
+  vakeel,
+  tredence,
+  womentechies,
   backend,
   kotlin,
   creator,
