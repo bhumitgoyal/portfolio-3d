@@ -4,7 +4,7 @@ import {
   backend,
   creator,
   tredence,
-  womentechies
+  womentechies,
   web,
   kotlin,
   javascript,
