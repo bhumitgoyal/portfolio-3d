@@ -3,6 +3,8 @@ import {
   
   backend,
   creator,
+  tredence,
+  womentechies
   web,
   kotlin,
   javascript,
@@ -33,6 +35,7 @@ import {
   threejs,
   SIH,
   yantra,
+  vakeel,
   prewery,
   devjams,
   resumeai
@@ -116,6 +119,32 @@ const technologies = [
 
 const experiences = [
   {
+    title: "InfinityAI",
+    company_name: "Tredence",
+    icon: tredence,
+    iconBg: "#383E56",
+    date: "March 2025",
+    points: [
+      "Built a project under the AI/ML track with real-world applications.",
+      "Worked with React, Kotlin, and Python to create a scalable solution.",
+      "Developed a platform to analyze legal documents",
+      "Focused on user-centric design and efficient backend architecture.",
+    ],
+  },
+  {
+    title: "WomenTechies'25",
+    company_name: "Google",
+    icon: womentechies,
+    iconBg: "#383E56",
+    date: "April 2025",
+    points: [
+      "Built a project under the AI/ML track with real-world applications.",
+      "Worked with React, Kotlin, and Python to create a scalable solution.",
+      "Developed a cloud-integrated system for real-time data processing.",
+      "Focused on user-centric design and efficient backend architecture.",
+    ],
+  },
+  {
     title: "DevJams",
     company_name: "Google",
     icon: devjams,
@@ -197,6 +226,35 @@ const testimonials = [
 ];
 
 const projects = [
+   {
+    name: "VakeelAI",
+    description:
+      "A platform that is an AI-powered app that helps small business owners and individuals analyze their contracts.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenRouter",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: vakeel,
+    source_code_link: "legalgpt-seven.vercel.app",
+  },
   {
     name: "SootheAI",
     description:
