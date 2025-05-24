@@ -75,6 +75,7 @@ export {
   eventnest,
   sirvicy,
   nodejs,
+  gitrun,
   reactjs,
   redux,
   tailwind,
