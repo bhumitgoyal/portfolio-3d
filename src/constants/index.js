@@ -29,6 +29,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  gitrun,
   carrent,
   jobit,
   tripguide,
@@ -227,6 +228,31 @@ const testimonials = [
 
 const projects = [
    {
+    name: "GitRepoRunner",
+    description:
+      "A platform that helps understand github repos and chatbot to help you assist with that repo's code",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+     
+      {
+        name: "OpenRouter",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: gitrun,
+    source_code_link: "https://github.com/bhumitgoyal/github-analyze",
+  }, {
     name: "VakeelAI",
     description:
       "A platform that is an AI-powered app that helps small business owners and individuals analyze their contracts.",
