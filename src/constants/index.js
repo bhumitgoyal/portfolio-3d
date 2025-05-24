@@ -1,6 +1,6 @@
 import {
   mobile,
-  
+
   backend,
   creator,
   tredence,
@@ -29,7 +29,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  gitrun,
+  gitrun1,
   carrent,
   jobit,
   tripguide,
@@ -250,7 +250,7 @@ const projects = [
         color: "pink-text-gradient",
       }
     ],
-    image: gitrun,
+    image: gitrun1,
     source_code_link: "https://github.com/bhumitgoyal/github-analyze",
   }, {
     name: "VakeelAI",
